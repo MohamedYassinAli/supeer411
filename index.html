@@ -6,7 +6,7 @@
   <meta name="viewport" content= user-scalable = "no", initial-scale= 5>
   
   <title>Mohamed Ali</title>
-  <link rel="stylesheet" href= "mypage.css">
+<!--   <link rel="stylesheet" href= "mypage.css"> -->
   <style>
     
     html,
@@ -779,8 +779,62 @@ display: block;
     </div>
       </div>
      </main>
-     <script src="learn.js">
-         
+<!--      <script src="learn.js"> -->
+<script>
+  
+
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+var pictures;
+
+
+pictures = ['https://stringfixer.com/files/121238885.jpg', 'https://stringfixer.com/files/3792697.jpg', 'https://stringfixer.com/files/36352569.jpg', 'https://stringfixer.com/files/25988107.jpg', 'https://stringfixer.com/files/162992759.jpg'];
+let element_image = document.getElementById('image');
+element_image.setAttribute("src", pictures[0]);
+element_image.style.backgroundColor = '#000000';
+
+
+document.getElementById('next').addEventListener('click', (event) => {
+  pictures.unshift(pictures.pop());
+  let element_image2 = document.getElementById('image');
+  element_image2.setAttribute("src", pictures[0]);
+
+});
+
+document.getElementById('previous').addEventListener('click', (event) => {
+  pictures.unshift(pictures.shift());
+  pictures.pop();
+  let element_image3 = document.getElementById('image');
+  element_image3.setAttribute("src", pictures.slice(-1)[0]);
+
+});
+
+    
+// document.querySelectorAll(".nav-link").forEach(n => n.
+//     addEventListener("click" , () => {
+//         hamburger.classList.remove("active");
+//         navMenu.classList.remove("active");
+//     }))
+
+
+    
+</script>
 
   
 </body>
