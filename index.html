@@ -1,847 +1,858 @@
-<!DOCTYPE >
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content= user-scalable = "no", initial-scale= 5>
-  
-  <title>Mohamed Ali</title>
-<!--   <link rel="stylesheet" href= "mypage.css"> -->
-  <style>
-    
-    html,
-body {
-  margin: 0;
-  padding: 0;
-  background-position: bottom ;
-  background-attachment: scroll;
-  background-color: rgb(30 08 20);
-  background-size: cover;
- 
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  transition: all .5s;
-  box-sizing: border-box;
-  color: #3d4a59;
-  
-}
-
-
-h1{
- font-size: 60px;
-  text-align: center;
-  width: auto;
-  max-width: 100%;
- padding: 10px;
- margin: 100px;
-  margin-top: 150px;
-  color: rgb(600 1000 600);
- animation-name: example;
-  animation-duration: 13s infinite; 
-  
-  
-}
-
-  @keyframes example {
- 50%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  100% {color: green;}
-}
-
-h1:hover{
-  color: #8D021f;
-}
-p{
-  font-size: 30px;
-  text-align: left;
-  color: white;
-  width: 100%;
-  max-width: 100%;
-  padding: 41px;
- border-bottom: 9px solid #8D021f;
-  margin-bottom: 71px;
-  border-radius: 21%;
-  box-shadow:   0px 9px ;
-  
-  
-}
-
-.m{
-  flex: 1 1 auto;
-  margin-right: 62%;
-  text-transform: uppercase;
-   letter-spacing: 1px;
-   font-weight: bold;
-   font-size: 35px;
-}
-
-.box{
-  font-size: 37px;
-  color: white;
-  margin-left: 20px ;
-  bottom: 34px;
-  padding-bottom: 100px; 
-  position: relative;
-  bottom: -190px;
-  
-}
-.box{
-  width: 91%;
-  margin: 0 auto;
-  max-width: 100%;
-}
-b{
-  position: absolute;
-  top: 39px;
-  margin: 13px;
-  border-bottom: solid orange;
-  
-  
-  
-}
-ol{
-  max-width:100%;
-  margin-top: 161px;
-  text-align: center;
-  list-style: none;
-}
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-  
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 13px;
-  background-color: #8D021f;
-}
-.hamburger {
-  display: none;
-}
-
-.bar {
-  display: block;
-  width: 41px;
-  height: 7px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #fdfbfb;
-}
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-item {
-  margin-left: 5rem;
-}
-
-.nav-link{
-  font-size: 2.6rem;
-  font-weight: 400;
-  color: #1d06f0;
-  transition: 0.5s;
-}
-
-.nav-link:hover{
-  color: #e60404;
-  border-radius: 5px 100px;
-}
-
-.nav-logo {
-  font-size: 3.1rem;
-  font-weight: 500;
-  color: #f50c0c;
-  transition: 0.5s;
-}
-
- /* .navbar {
-  top: 0px;
-  min-width: 100%;
-  background-color: #8D021f;
-  font-size: 1.25em;
-  text-align: right;
-   position: fixed;
-   padding: 21px;
-   font-size: 2em;
-   border-radius: 10px 100px; 
-   display: inline-block;
- 
-   
-   
-} */
-
-
-.navbar  a{
-  text-decoration: none;
-  padding: 13px;
-  display: inline;
-  color: rgb(800,1000,900);
-  transition: 0.7s;
-}
- 
-
-.navbar a:hover{
-  color: rgb(248, 242, 244);
-  background-color: rgb(30 08 20);
-  padding: 13px;
-  border-radius: 13px;
-  opacity: 0.5; 
-  border: 3px solid;
-}
-
-
-
-section{
-  padding: 3rem 0;
-  display: block;
-}
-
-.float{
-  margin-inline: auto;
-  width: min(90%, 70.5rem);
-}
-
-.moh{
-  display: flex;
-  flex-direction: column;
-  
-}
-@media (min-width: 70em){
-  .moh {
-    flex-direction: row;
-    margin-top: 70px;;
-  }
-  .moh > * {
-    flex-basis: 100%;
-  }
-  .moh > * + * {
-    margin-left: 2em;
-  }
-  
-}
-
-.float--narrow{
-  max-width: 34rem;
-}
-
-  .image{
-    max-width:100%;
-    height: 760px;
-    margin: 0 auto;
-  padding: 20px;
-  display: block;
-  border: solid;
-  border-radius: 50px; 
-  background-color: #8D021f;
-  box-shadow: 1px 2px 1px 2px   white;
-  opacity: 0.6;
-    margin-top: 33px; 
-    
-}
-.project:hover{
-  background-color: white;
-  border-radius: 15px 100px;
- 
-}
-
-  
-.project-tile{
-  text-align: center;
-  color: hsl(36, 82%, 47%);
-  font-size: 40px;
-  margin: 5px auto;
-  margin-bottom: 25px;
-}
-.project-box {
-  display : flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.project {
-  height: auto;
-  width: 300px;
-  margin: 10px;
-  background-color: hsl(36, 82%, 47%);
-  padding-right: 5px;
-  padding-left: 5px;
-  border-radius: 20px;
-  transition: 0.9s;
-}
-.project a{
-  text-decoration: none;
-  text-align: center;
-  color: black;
-}
-#m-box{
-   width:80%;
-  height: 100%;
-  padding: 30px;
-  margin: -50px auto;
-  text-align: left;
-  color:  white;
-  font-size: 29px;
-  box-shadow: 9px 1px 15px 6px   white;
-  border-radius: 20px;
-  border-left:  12px solid;
-  margin-top: -71px;
-  
-}
-iframe{
-  width: 800px;
-  height: 760px;
-  margin: 0 auto;
-  max-width: 100%;
-  display: block;
-  border: solid;
-  border-radius: 50px; 
-  background-color: #8D021f;
-  box-shadow: 1px 2px 1px 2px   white;
-  opacity: 0.6;
-  margin-bottom: 91px;
-  
-
-  }
-
-#work{
-  border: solid;
-  padding: 13px;
-  margin-bottom: 91px;
-  border-radius: 100px 100px 30px 30px;
-  background-color: #8D021f;
-}
-button{
-  padding: 19px;
-  font-size: 7px;
- border: 0px solid;
-  margin-bottom: 3px;
-  border-radius: 100px 100px 30px 30px;
-  background-color: #8D021f;
-  width: 100%;
-  line-height: 1;
-  color: white;
-}
-.button{
-  font-size: 21px;
-}
-.ma{
-  
-  text-align: center;
-}
-.next{
-  display: flex;
-    padding: 31px;
-    border-radius: 7px;
-    margin-left: 0 auto;
-    font-size: 31px;
-    
-    
-}
-
-
-
-
-
-
-
-#m-box:hover{
-  background-color: #8D021f;
-  
-}
-.float{
-      
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 25%);
-    border-radius: 9px;
-    margin: 109px;
-    margin-top: 251px;
-    
-  }
-  
-  .moh{
-    height: auto;
-    width: auto;
-    margin: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
-    border-radius: 20px;
-    margin-top: 100px; 
-    margin-bottom: 141px;
-  }
-.thanks{
-  margin-top: 100px;
-  
-}
-
-  aside{
-    
-    font-size: 27px;
-    padding: 0;
-    width: auto;
-    max-width: 100%;
-    letter-spacing: 1px;
-    font-weight: bold;
-    color: white;
-    margin-top: -100px
-  }
-.life{
-  margin-top:  -191px;
-  font-size: 41px;
-  max-width: 31%;
-  border-bottom: 4px solid #8D021f;
-    border-radius: 81px;
-    padding: 17px;
-  font-weight:   900px;
-  text-align: center;
-  margin-bottom: 99px;
-  margin: 0 auto;
-}
-
-
-
-
-  @media all and (max-width: 900px)  {
-    .project-tile{
-      font-size: 20px;
-        color: white;
-      margin: 17px;
-    }
-    
-    
-
-  }
-  
-    @media all and (max-width: 1000px)  {
-    .image{
-
-      width: 600px;
-      height: 650px;
-      margin: auto;
-    display: flex;
-    border: solid;
-    border-radius: 50px; 
-    background-color: #8D021f;
-    box-shadow: 1px 2px 1px 2px   white;
-    margin-top: -151px;
-
-      }
-      iframe{
-
-      width: 650px;
-      height: 650px;
-    margin:  auto;
-    display: flex;
-    border: solid;
-    border-radius: 50px; 
-    background-color: #8D021f;
-    box-shadow: 1px 2px 1px 2px   white;
-    margin-top: 31px;
-    
-
-      }
-    .thanks{
-      max-width: 100%;
-      font-size: 10px;
-      margin: auto;
-      margin-bottom: 70px;
-      padding: 21px;
-      margin-left: 31px;
-    }
-    
-    
-    
-
-    .navbar  a{
-      display: inline;
-      padding: 9px;
-      text-align: center;
-      width: 100%;
-      transition: 0.7s;
-      
-      
-    }
-   .navbar a:hover{
-  color: white;
-  background-color: rgb(247, 10, 10);
-  padding: 9px;
-  border-radius: 41px 51px;
-  opacity: 0.5; 
- 
-}
- .m{
-   font-size: 21px;
-   margin-right: 67%;
-   
-   }
-   h1{
-     max-width: 100%;
-    font-size: 61px;
-    margin-top: 100px;
-     }
-      
- 
-  
-      aside{
-    
-    font-size: 27px;
-    padding: 0;
-    width: auto;
-    max-width: 100%;
-    letter-spacing: 1px;
-    font-weight: bold;
-    color: white;
-    margin-top: -100px
-  }
-     
-}
-
-      
- 
-   
-
- 
-@media only screen and (max-width: 1800px) {
-  body {
-  grid-template-rows: 3em 100vh auto auto;
-  }
-  .life {
-    font-size: 41px;
-    max-width: 81%;
-  }
-  .thanks{
-    margin-bottom: 91px;
-  }
-}
-@media (max-width: 1120px) {
-  .float {
-    max-width: 71%;
-    margin-bottom: 31px;
-  }
-}
-@media (max-width: 759px) {
-  .life {
-    font-size: 41px;
-    max-width: 100%;
- 
-  }
-  h1{
-     max-width: 100%;
-    font-size: 41px;
-  }
-}
-@media (max-width: 610px) {
-  .life {
-    font-size: 31px;
-   width: 100%;
- 
-  }
-  h1{
-     max-width: 100%;
-    font-size: 31px;
-  }
-}
-@media (max-width: 490px) {
-  .life {
-    font-size: 25px;
-     max-width: 100%;
- 
-  }
-  P{
-    border-bottom: 3px solid #8D021f;
-    border-radius: 3px;
-    item-alin: center;
-  }
-  h1{
-     max-width: 100%;
-    font-size: 25px;
-  }
-}
-/* prooof of curse */
-
-
-
-    
-
-
-@media only screen and (max-width: 1000px) {
-  .nav-menu {
-      position: fixed;
-      left: -100%;
-      top: 5rem;
-      flex-direction: column;
-      background-color: rgb(30 08 20);
-      width: 100%;
-      border-radius: 31px;
-      text-align: left;
-      transition: 0.3s;
-      box-shadow: 0 7px 27px rgba(29, 1, 1, 0.904);
-     font-size: 51px;
-  
-  }
-  
-
-  .nav-menu.active {
-      left: 0;
-  }
-
-  .nav-item {
-      margin: 0.7rem 0;
-  }
-
-  .hamburger {
-      display: block;
-      cursor: pointer;
-  }
-
-}
-.menu-container .navbar {
-display: none;
-}
-.menu-container:focus-within .navbar {
-display: block;
-}
-.hamburger.active .bar:nth-child(2) {
-      opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-      transform: translateY(12px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-12px) rotate(-45deg);
-  }
-
-}
-
-  </style>
-  
-   <body>
-    
-  
-    <header class="header">
-      <nav class="navbar">
-          <a href="#" class="nav-logo">Mohamed Ali</a>
-          <ul class="nav-menu">
-              <li class="nav-item">
-                  <a href="#" class="nav-link">home</a>
+              <!DOCTYPE >
+              <html lang="en">
+              <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content= user-scalable = "no", initial-scale= 5>
+                
+                <title>Mohamed Ali</title>
+              <!--   <link rel="stylesheet" href= "mypage.css"> -->
+                <style>
                   
-              </li>
-             
-              <li class="nav-item">
-                  <a href="#pic" class="nav-link" target="_self" >work</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#" class="nav-link">contact</a>
-              </li>
-          </ul>
-          <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-          </div>
-      </nav>
-      
-</header>
-<!-- <div class="menu-container">
-<button type="button" class="hamburger">Menu</button>
-<nav class="navbar">...</nav>
-</div> -->
-  
-     <main>
-  <h1>welcome to my page</h1>
-       <!-- <section>
-       
-      <div id="m-box"><h3> My name is Mohamed Ali, 
-        I was born in Somalia and live in Birmingham for almost three years. When I was young, I was deprived of education because of the living conditions. I loved education very much.
-  My beginnings in the computer, I learned Windows and the Office program, and I remember the first person who teach  me the computer, is my childhood friend. Then I started working in an Internet café and here was an opportunity for me to learn computer hardwere & softwere,
-   and I was trying to fix any computer that broke down.
-  I dreamed a lot of becoming a programmer and web devloper, but the study costs were a big problem for me and I could not find anyone to help me, but I did not give up my dream and I hope to achieve my ambition and become a successful programmer
-  In conclusion, I would like to thank the Code your Future organization for their assistance, especially to Mrs Claire, because she helped me a lot. I have all my respect and appreciation, and thank you again.
-        
-        
-        </h3>
-      </div>
-       </section> -->
-       
-       <section class="pic"
-       <div class="float">
-       <div class="moh">
-         <div>
-          <img class="image" id="image" ></img>
-          <div class="next">
-          <button class="btn1" id="prev" style="font-size: 31px; width: 31%;margin: 0 auto;" >prev</button>
-          <button class="btn1" id="next" style="font-size: 31px; width: 31%;margin: 0 auto;  "  >next</button>
-          </div>
-        </div>
-        
-    <div>
-      
-      <br>
-      <br>
-      
-      <iframe id="lazyframe" src="https://www.youtube.com/embed/nJSpUpx4BuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-   </div>
-   </div>
-   </section>
-   
-  
-  
-     <section class="thanks"
-    <div  class="float">
-     <div class="moh1">
-        <div>  
-    <h1 class="life">
-      This is how life thaught me!
-    </h1>
-       </div>
-       <div>
-      <aside>
-          <ol>
-            <li>learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel. - Maya Angelou.
-          </li>
-            <li>It doesn't matter who you are, where you come from.The ability to triumph begins with you. Always. - Operah Winfrey</li>
-            <li>Every one thinks of changing the world, but no one thinks of changing himself.</li>
-            
-            <li>A person who never made a mistake never tried anything new. - Albert Einstein</li>
-             <li> Every one thinks of changing the world, but no one thinks of changing himself.</li>
-            <li>Life is about learning; when you stop learning, you die. - Tom Clancy</li>
-            <li>Do not give up. The beginning is always the hardest.</li>
-             <li>Mistakes are proof that you are trying.</li>
-          <li>Actions speak louder than words.</li>
-         
-             
-         
-          
-        </ol>
-      </aside>
-    </div>
-       <div class="box">
-      <!-- <span><b>Thanks</b><p> Hello, <br> -->
-    first of all, I would like to thank those who helped me, but I am learning and training to become a website designer. I was happy to find this organization. I do not find the words of thanks, but I promised myself that I would learn and work with all my effort and strive more and more.
-    I expect that I will work hard and I have learned a lot and this is some of my work. Thank you
-      
-      
-     A beta site, I hope you like it. This is the first site that I create, and I would be happy to hear your comments and directions.
-  </p>
-   </span>
-    </div>
-  
-  </div>
-  </div>
-</section>
-       
-      
-         
-       
-     
-  <div><section id="work">
-      <h2 class="project-tile">Please find here below some of my  projects</h2>
-      <div class="project-box">
-        <div class="project">
-          <a id="profile-link" href="https://codepen.io/supeer411/full/MWoXqZQ" target="_blank">
-            <h3>Tribute page</h3>
-          </a>
-        </div>
-        <div class="project">
-          <a id="profile-link" href="https://codepen.io/supeer411/full/gOGpjVz" target="_blank">
-            <h3>Survey form</h3>
-          </a>
-        </div>
-        
-       
-    </section>
-    
-    <footer class="c-site-footer">
-      <button class="btn" aria-label="Justify">
-      <span class="button" aria-hidden="true">Designed and developed by Mohamed Ali 2022</span>
-    </button>
-     
-      
-  </footer>
-    </div>
-      </div>
-     </main>
-<!--      <script src="learn.js"> -->
-<script>
-  
+                  html,
+              body {
+                margin: 0;
+                padding: 0;
+                background-position: bottom ;
+                background-attachment: scroll;
+                background-color: rgb(30 08 20);
+                background-size: cover;
+              
+              }
+              *,
+              *::before,
+              *::after {
+                box-sizing: border-box;
+              }
+              html {
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+                transition: all .5s;
+                box-sizing: border-box;
+                color: #3d4a59;
+                
+              }
 
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+              h1{
+              font-size: 60px;
+                text-align: center;
+                width: auto;
+                max-width: 100%;
+              padding: 10px;
+              margin: 100px;
+                margin-top: 150px;
+                color: rgb(600 1000 600);
+              animation-name: example;
+                animation-duration: 13s infinite; 
+                
+                
+              }
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+                @keyframes example {
+              50%   {color: red;}
+                25%  {color: yellow;}
+                50%  {color: blue;}
+                100% {color: green;}
+              }
+
+              h1:hover{
+                color: #8D021f;
+              }
+              p{
+                font-size: 30px;
+                text-align: left;
+                color: white;
+                width: 100%;
+                max-width: 100%;
+                padding: 41px;
+              border-bottom: 9px solid #8D021f;
+                margin-bottom: 71px;
+                border-radius: 21%;
+                box-shadow:   0px 9px ;
+                
+                
+              }
+
+              .m{
+                flex: 1 1 auto;
+                margin-right: 62%;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: bold;
+                font-size: 35px;
+              }
+
+              .box{
+                font-size: 37px;
+                color: white;
+                margin-left: 20px ;
+                bottom: 34px;
+                padding-bottom: 100px; 
+                position: relative;
+                bottom: -190px;
+                
+              }
+              .box{
+                width: 91%;
+                margin: 0 auto;
+                max-width: 100%;
+              }
+              b{
+                position: absolute;
+                top: 39px;
+                margin: 13px;
+                border-bottom: solid orange;
+                
+                
+                
+              }
+              ol{
+                max-width:100%;
+                margin-top: 161px;
+                text-align: center;
+                list-style: none;
+              }
+              li {
+                list-style: none;
+              }
+
+              a {
+                text-decoration: none;
+              }
+
+                
+
+              .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 3px;
+                background-color: #8D021f;
+              }
+              .hamburger {
+                display: none;
+              }
+
+              .bar {
+                display: block;
+                width: 41px;
+                height: 7px;
+                margin: 5px auto;
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                background-color: #faf5f5;
+              }
+              .nav-menu {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              }
+
+              .nav-item {
+                margin-left: 5rem;
+              }
+
+              .nav-link{
+                font-size: 2.6rem;
+                font-weight: 400;
+                color: #1d06f0;
+                transition: 0.5s;
+                
+              }
+
+              .nav-link:hover{
+                color: rgb(30 08 20);
+                border-radius: 5px 100px;
+              }
+
+              .nav-logo {
+                font-size: 3.1rem;
+                font-weight: 500;
+                color: #f50c0c;
+                transition: 0.5s;
+              }
+
+              /* .navbar {
+                top: 0px;
+                min-width: 100%;
+                background-color: #8D021f;
+                font-size: 1.25em;
+                text-align: right;
+                position: fixed;
+                padding: 21px;
+                font-size: 2em;
+                border-radius: 10px 100px; 
+                display: inline-block;
+              
+                
+                
+              } */
 
 
-const navLink = document.querySelectorAll(".nav-link");
+              .navbar  a{
+                text-decoration: none;
+                padding: 9px;
+                display: inline;
+                color: rgb(800,1000,900);
+                transition: 0.5s;
+                
+              }
+              
 
-navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}
-var pictures;
-
-
-pictures = ['https://stringfixer.com/files/121238885.jpg', 'https://stringfixer.com/files/3792697.jpg', 'https://stringfixer.com/files/36352569.jpg', 'https://stringfixer.com/files/25988107.jpg', 'https://stringfixer.com/files/162992759.jpg'];
-let element_image = document.getElementById('image');
-element_image.setAttribute("src", pictures[0]);
-element_image.style.backgroundColor = '#000000';
-
-
-document.getElementById('next').addEventListener('click', (event) => {
-  pictures.unshift(pictures.pop());
-  let element_image2 = document.getElementById('image');
-  element_image2.setAttribute("src", pictures[0]);
-
-});
-
-document.getElementById('previous').addEventListener('click', (event) => {
-  pictures.unshift(pictures.shift());
-  pictures.pop();
-  let element_image3 = document.getElementById('image');
-  element_image3.setAttribute("src", pictures.slice(-1)[0]);
-
-});
-
-    
-// document.querySelectorAll(".nav-link").forEach(n => n.
-//     addEventListener("click" , () => {
-//         hamburger.classList.remove("active");
-//         navMenu.classList.remove("active");
-//     }))
+              .navbar a:hover{
+                color: rgb(248, 242, 244);
+                background-color: rgb(30 08 20);
+                padding: 9px;
+                border-radius: 17px ;
+                opacity: 0.5; 
+                
+              }
 
 
-    
-</script>
 
-  
-</body>
-</head>
-</html>        
+              section{
+                padding: 3rem 0;
+                display: block;
+              }
+
+              .float{
+                margin-inline: auto;
+                width: min(90%, 70.5rem);
+              }
+
+              .moh{
+                display: flex;
+                flex-direction: column;
+                
+              }
+              @media (min-width: 70em){
+                .moh {
+                  flex-direction: row;
+                  margin-top: 70px;;
+                }
+                .moh > * {
+                  flex-basis: 100%;
+                }
+                .moh > * + * {
+                  margin-left: 2em;
+                }
+                
+              }
+
+              .float--narrow{
+                max-width: 34rem;
+              }
+
+                .image{
+                  max-width:100%;
+                  height: 760px;
+                  margin: 0 auto;
+                padding: 20px;
+                display: block;
+                border: solid;
+                border-radius: 50px; 
+                background-color: #8D021f;
+                box-shadow: 1px 2px 1px 2px   white;
+                opacity: 0.6;
+                  margin-top: 33px; 
+                  
+              }
+              .project:hover{
+                background-color: white;
+                border-radius: 15px 100px;
+              
+              }
+
+                
+              .project-tile{
+                text-align: center;
+                color: hsl(36, 82%, 47%);
+                font-size: 40px;
+                margin: 5px auto;
+                margin-bottom: 25px;
+              }
+              .project-box {
+                display : flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+              }
+              .project {
+                height: auto;
+                width: 300px;
+                margin: 10px;
+                background-color: hsl(36, 82%, 47%);
+                padding-right: 5px;
+                padding-left: 5px;
+                border-radius: 20px;
+                transition: 0.9s;
+              }
+              .project a{
+                text-decoration: none;
+                text-align: center;
+                color: black;
+              }
+              #m-box{
+                width:80%;
+                height: 100%;
+                padding: 30px;
+                margin: -50px auto;
+                text-align: left;
+                color:  white;
+                font-size: 29px;
+                box-shadow: 9px 1px 15px 6px   white;
+                border-radius: 20px;
+                border-left:  12px solid;
+                margin-top: -71px;
+                
+              }
+              iframe{
+                width: 800px;
+                height: 760px;
+                margin: 0 auto;
+                max-width: 100%;
+                display: block;
+                border: solid;
+                border-radius: 50px; 
+                background-color: #8D021f;
+                box-shadow: 1px 2px 1px 2px   white;
+                opacity: 0.6;
+                margin-bottom: 91px;
+                
+
+                }
+
+              #work{
+                border: solid;
+                padding: 13px;
+                margin-bottom: 91px;
+                border-radius: 100px 100px 30px 30px;
+                background-color: #8D021f;
+              }
+              button{
+                padding: 19px;
+                font-size: 7px;
+              border: 0px solid;
+                margin-bottom: 3px;
+                border-radius: 100px 100px 30px 30px;
+                background-color: #8D021f;
+                width: 100%;
+                line-height: 1;
+                color: white;
+              }
+              .button{
+                font-size: 21px;
+              }
+              .ma{
+                
+                text-align: center;
+              }
+              .next{
+                display: flex;
+                  padding: 31px;
+                  border-radius: 7px;
+                  margin-left: 0 auto;
+                  font-size: 31px;
+                  
+                  
+              }
+
+
+
+
+
+
+
+              #m-box:hover{
+                background-color: #8D021f;
+                
+              }
+              .float{
+                    
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  box-shadow: 0 5px 30px 0 rgb(0 0 0 / 25%);
+                  border-radius: 9px;
+                  margin: 109px;
+                  margin-top: 251px;
+                  
+                }
+                
+                .moh{
+                  height: auto;
+                  width: auto;
+                  margin: 10px;
+                  padding-right: 5px;
+                  padding-left: 5px;
+                  border-radius: 20px;
+                  margin-top: 100px; 
+                  margin-bottom: 141px;
+                }
+              .thanks{
+                margin-top: 100px;
+                
+              }
+
+                aside{
+                  
+                  font-size: 27px;
+                  padding: 0;
+                  width: auto;
+                  max-width: 100%;
+                  letter-spacing: 1px;
+                  font-weight: bold;
+                  color: white;
+                  margin-top: -100px
+                }
+              .life{
+                margin-top:  -191px;
+                font-size: 41px;
+                max-width: 31%;
+                border-bottom: 4px solid #8D021f;
+                  border-radius: 81px;
+                  padding: 17px;
+                font-weight:   900px;
+                text-align: center;
+                margin-bottom: 99px;
+                margin: 0 auto;
+              }
+
+
+
+
+                @media all and (max-width: 900px)  {
+                  .project-tile{
+                    font-size: 20px;
+                      color: white;
+                    margin: 17px;
+                  }
+                  
+                  
+
+                }
+                
+                  @media all and (max-width: 1000px)  {
+                  .image{
+
+                    width: 600px;
+                    height: 650px;
+                    margin: auto;
+                  display: flex;
+                  border: solid;
+                  border-radius: 50px; 
+                  background-color: #8D021f;
+                  box-shadow: 1px 2px 1px 2px   rgb(243, 243, 237);
+                  margin-top: -151px;
+
+                    }
+                    iframe{
+
+                    width: 650px;
+                    height: 650px;
+                  margin:  auto;
+                  display: flex;
+                  border: solid;
+                  border-radius: 50px; 
+                  background-color: #8D021f;
+                  box-shadow: 1px 2px 1px 2px   white;
+                  margin-top: 31px;
+                  
+
+                    }
+                  .thanks{
+                    max-width: 100%;
+                    font-size: 10px;
+                    margin: auto;
+                    margin-bottom: 70px;
+                    padding: 21px;
+                    margin-left: 31px;
+                  }
+                  
+                  
+                  
+
+                  .navbar  a{
+                    display: inline;
+                    padding: 9px;
+                    text-align: center;
+                    width: 100%;
+                    transition: 0.7s;
+                    
+                    
+                  }
+                .navbar a:hover{
+                color: white;
+                background-color: rgb(54, 29, 0);
+                padding: 9px;
+                border-radius: 13px;
+                opacity: 0.5; 
+                border: 3px solid;
+              
+              }
+              .m{
+                font-size: 21px;
+                margin-right: 67%;
+                
+                }
+                h1{
+                  max-width: 100%;
+                  font-size: 61px;
+                  margin-top: 100px;
+                  }
+                    
+              
+                
+                    aside{
+                  
+                  font-size: 27px;
+                  padding: 0;
+                  width: auto;
+                  max-width: 100%;
+                  letter-spacing: 1px;
+                  font-weight: bold;
+                  color: white;
+                  margin-top: -100px
+                }
+                  
+              }
+
+                    
+              
+                
+
+              
+              @media only screen and (max-width: 1800px) {
+                body {
+                grid-template-rows: 3em 100vh auto auto;
+                }
+                .life {
+                  font-size: 41px;
+                  max-width: 81%;
+                }
+                .thanks{
+                  margin-bottom: 91px;
+                }
+              }
+              @media (max-width: 1120px) {
+                .float {
+                  max-width: 71%;
+                  margin-bottom: 31px;
+                }
+              }
+              @media (max-width: 759px) {
+                .life {
+                  font-size: 41px;
+                  max-width: 100%;
+              
+                }
+                h1{
+                  max-width: 100%;
+                  font-size: 41px;
+                }
+              }
+              @media (max-width: 610px) {
+                .life {
+                  font-size: 31px;
+                width: 100%;
+              
+                }
+                h1{
+                  max-width: 100%;
+                  font-size: 31px;
+                }
+              }
+              @media (max-width: 490px) {
+                .life {
+                  font-size: 25px;
+                  max-width: 100%;
+              
+                }
+                P{
+                  border-bottom: 3px solid #8D021f;
+                  border-radius: 3px;
+                  item-alin: center;
+                }
+                h1{
+                  max-width: 100%;
+                  font-size: 25px;
+                }
+              }
+              /* prooof of curse */
+
+
+
+                  
+
+
+              @media only screen and (max-width: 1000px) {
+                .nav-menu {
+                    position: fixed;
+                    left: -100%;
+                    top: 5rem;
+                    flex-direction: column;
+                    background-color: rgb(30 08 20);
+                    width: 100%;
+                    border-radius: 31px;
+                    text-align: center;
+                    transition: 0.3s;
+                    box-shadow: 0 7px 27px rgba(29, 1, 1, 0.904);
+                    font-size: 51px;
+                
+                }
+                .pic{
+                  margin-top: 100px;
+
+
+                }
+                
+
+                .nav-menu.active {
+                    left: 0;
+                }
+
+                .nav-item {
+                    margin: 0.7rem 0;
+                }
+
+                .hamburger {
+                    display: block;
+                    cursor: pointer;
+                    font-size: 81px;
+                    padding: 31px;
+                }
+
+              }
+              .menu-container .navbar {
+              display: none;
+              font-size: 51px;
+              }
+              .menu-container:focus-within .navbar {
+              display: block;
+              }
+              .hamburger.active .bar:nth-child(2) {
+                    opacity: 0;
+                }
+
+                .hamburger.active .bar:nth-child(1) {
+                    transform: translateY(12px) rotate(45deg);
+                }
+
+                .hamburger.active .bar:nth-child(3) {
+                    transform: translateY(-12px) rotate(-45deg);
+                }
+
+              }
+
+                </style>
+                
+                <body>
+                  
+                
+                  <header class="header">
+                    <nav class="navbar">
+                        <a href="#" class="nav-logo">Mohamed Ali</a>
+                        <ul class="nav-menu">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">home</a>
+                                
+                            </li>
+                          
+                            <li class="nav-item">
+                                <a href="#pic" class="nav-link" target="_self" >work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">contact</a>
+                            </li>
+                        </ul>
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </nav>
+                    
+              </header>
+              <!-- <div class="menu-container">
+              <button type="button" class="hamburger">Menu</button>
+              <nav class="navbar">...</nav>
+              </div> -->
+                
+                  <main>
+                <h1>welcome to my page</h1>
+                    <!-- <section>
+                    
+                    <div id="m-box"><h3> My name is Mohamed Ali, 
+                      I was born in Somalia and live in Birmingham for almost three years. When I was young, I was deprived of education because of the living conditions. I loved education very much.
+                My beginnings in the computer, I learned Windows and the Office program, and I remember the first person who teach  me the computer, is my childhood friend. Then I started working in an Internet café and here was an opportunity for me to learn computer hardwere & softwere,
+                and I was trying to fix any computer that broke down.
+                I dreamed a lot of becoming a programmer and web devloper, but the study costs were a big problem for me and I could not find anyone to help me, but I did not give up my dream and I hope to achieve my ambition and become a successful programmer
+                In conclusion, I would like to thank the Code your Future organization for their assistance, especially to Mrs Claire, because she helped me a lot. I have all my respect and appreciation, and thank you again.
+                      
+                      
+                      </h3>
+                    </div>
+                    </section> -->
+                    
+                    <section class="pic"
+                    <div class="float">
+                    <div class="moh">
+                      <div>
+                        <img class="image" id="image" ></img>
+                        <div class="next">
+                        <button class="btn1" id="prev" style="font-size: 31px; width: 31%;margin: 0 auto;" >prev</button>
+                        <button class="btn1" id="next" style="font-size: 31px; width: 31%;margin: 0 auto;  "  >next</button>
+                        </div>
+                      </div>
+                      
+                  <div>
+                    
+                    <br>
+                    <br>
+                    
+                    <iframe id="lazyframe" src="https://www.youtube.com/embed/nJSpUpx4BuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+                </div>
+                </section>
+                
+                
+                
+                  <section class="thanks"
+                  <div  class="float">
+                  <div class="moh1">
+                      <div>  
+                  <h1 class="life">
+                    This is how life thaught me!
+                  </h1>
+                    </div>
+                    <div>
+                    <aside>
+                        <ol>
+                          <li>learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel. - Maya Angelou.
+                        </li>
+                          <li>It doesn't matter who you are, where you come from.The ability to triumph begins with you. Always. - Operah Winfrey</li>
+                          <li>Every one thinks of changing the world, but no one thinks of changing himself.</li>
+                          
+                          <li>A person who never made a mistake never tried anything new. - Albert Einstein</li>
+                          <li> Every one thinks of changing the world, but no one thinks of changing himself.</li>
+                          <li>Life is about learning; when you stop learning, you die. - Tom Clancy</li>
+                          <li>Do not give up. The beginning is always the hardest.</li>
+                          <li>Mistakes are proof that you are trying.</li>
+                        <li>Actions speak louder than words.</li>
+                      
+                          
+                      
+                        
+                      </ol>
+                    </aside>
+                  </div>
+                    <div class="box">
+                    <!-- <span><b>Thanks</b><p> Hello, <br> -->
+                  first of all, I would like to thank those who helped me, but I am learning and training to become a website designer. I was happy to find this organization. I do not find the words of thanks, but I promised myself that I would learn and work with all my effort and strive more and more.
+                  I expect that I will work hard and I have learned a lot and this is some of my work. Thank you
+                    
+                    
+                  A beta site, I hope you like it. This is the first site that I create, and I would be happy to hear your comments and directions.
+                </p>
+                </span>
+                  </div>
+                
+                </div>
+                </div>
+              </section>
+                    
+                    
+                      
+                    
+                  
+                <div><section id="work">
+                    <h2 class="project-tile">Please find here below some of my  projects</h2>
+                    <div class="project-box">
+                      <div class="project">
+                        <a id="profile-link" href="https://codepen.io/supeer411/full/MWoXqZQ" target="_blank">
+                          <h3>Tribute page</h3>
+                        </a>
+                      </div>
+                      <div class="project">
+                        <a id="profile-link" href="https://codepen.io/supeer411/full/gOGpjVz" target="_blank">
+                          <h3>Survey form</h3>
+                        </a>
+                      </div>
+                      
+                    
+                  </section>
+                  
+                  <footer class="c-site-footer">
+                    <button class="btn" aria-label="Justify">
+                    <span class="button" aria-hidden="true">Designed and developed by Mohamed Ali 2022</span>
+                  </button>
+                  
+                    
+                </footer>
+                  </div>
+                    </div>
+                  </main>
+              <!--      <script src="learn.js"> -->
+              <script>
+                
+
+
+              const hamburger = document.querySelector(".hamburger");
+              const navMenu = document.querySelector(".nav-menu");
+
+              hamburger.addEventListener("click", () => {
+                  hamburger.classList.toggle("active");
+                  navMenu.classList.toggle("active");
+              })
+
+
+              const navLink = document.querySelectorAll(".nav-link");
+
+              navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+              function closeMenu() {
+                  hamburger.classList.remove("active");
+                  navMenu.classList.remove("active");
+              }
+              var pictures;
+
+
+              pictures = ['https://stringfixer.com/files/121238885.jpg', 'https://stringfixer.com/files/3792697.jpg', 'https://stringfixer.com/files/36352569.jpg', 'https://stringfixer.com/files/25988107.jpg', 'https://stringfixer.com/files/162992759.jpg'];
+              let element_image = document.getElementById('image');
+              element_image.setAttribute("src", pictures[0]);
+              element_image.style.backgroundColor = '#000000';
+
+
+              document.getElementById('next').addEventListener('click', (event) => {
+                pictures.unshift(pictures.pop());
+                let element_image2 = document.getElementById('image');
+                element_image2.setAttribute("src", pictures[0]);
+
+              });
+
+              document.getElementById('previous').addEventListener('click', (event) => {
+                pictures.unshift(pictures.shift());
+                pictures.pop();
+                let element_image3 = document.getElementById('image');
+                element_image3.setAttribute("src", pictures.slice(-1)[0]);
+
+              });
+
+                  
+              // document.querySelectorAll(".nav-link").forEach(n => n.
+              //     addEventListener("click" , () => {
+              //         hamburger.classList.remove("active");
+              //         navMenu.classList.remove("active");
+              //     }))
+
+
+                  
+              </script>
+
+                
+              </body>
+              </head>
+              </html>        
